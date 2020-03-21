@@ -1,0 +1,75 @@
+%!Adobe-FontList 1.19
+%Locale:0xc0c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AlwaysTogether
+FamilyName:Always Together
+StyleName:Regular
+FullName:Always Together
+MenuName:Always Together
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\e1678013\Desktop\webPortfolio\Font\AlwaysTogether.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:224524
+FileModTime:1390254072
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Always Together
+NameArray:0,Win,1,Always Together
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:hadfield
+FamilyName:hadfield
+StyleName:Regular
+FullName:hadfield
+MenuName:hadfield
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\e1678013\Desktop\webPortfolio\Font\hadfield.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:82836
+FileModTime:1537560162
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,hadfield
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:LGfBesitosRound-Light
+FamilyName:LGf Besitos Round
+StyleName:Light
+FullName:LGf Besitos Round Light
+MenuName:LGf Besitos Round
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\e1678013\Desktop\webPortfolio\Font\LGfBesitosRound-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:109608
+FileModTime:1457248006
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,LGf Besitos Round Light
+NameArray:0,Win,1,LGf Besitos Round
+%EndFont
+

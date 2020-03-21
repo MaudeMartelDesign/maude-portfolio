@@ -1,0 +1,75 @@
+
+////////////////////////MOBILE//////////////////////////
+
+.footer{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    height: 15vh;
+    font-family: always;
+    display: flex;
+    color: black;
+}
+
+.underlineNone{
+    text-decoration: none;
+}
+
+.iconsFooter i{
+    color: #354F73;
+    font-size: 20px;
+    transition: font-size 0.5s;
+    
+}
+
+.textFooter{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+    transition: font-size 0.5s;
+    text-decoration: underline;
+}
+
+.textFooter a{
+    color:inherit;
+}
+
+.iconsFooter{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+//////////////////////////TABLETTE/////////////////////////
+
+@media only screen and (min-width: 600px){
+
+}
+
+////////////////////////DESKTOP////////////////////////////
+@media only screen and (min-width: 1200px){
+    .footer{
+        height: 30vh;
+        justify-content: space-around;
+    }
+
+    .textFooter{
+        width: 30%;
+        font-size: 25px;
+        transition: font-size 0.5s;
+    }
+    
+    .iconsFooter{
+        width: 30%;
+        align-items: center;
+    }
+
+    .iconsFooter i{
+        font-size: 40px;
+        transition: font-size 0.5s;
+    }
+}

@@ -1,0 +1,95 @@
+////////////////////////MOBILE//////////////////////////
+
+.contactHaut{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+
+.contactBas{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.infoContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dessinContact{
+    height: 400px;
+    margin: 0 auto;
+    transition : height 0.5s;
+}
+
+.iconsContact{
+    height: 200px;
+    right: 0;
+    transition : height 0.5s;
+    padding-bottom: 30px;
+}
+
+.textContact{
+    font-size: 20px;
+    font-family: always;
+    text-decoration: underline;
+}
+
+
+//////////////////////////TABLETTE/////////////////////////
+
+@media only screen and (min-width: 600px){
+    .contactHaut{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .contactBas{
+        padding-top: 0;
+    }
+
+    .dessinContact{
+        height: 500px;
+        transition : height 0.5s;
+    }
+
+    .textContact{
+        font-size: 20px;
+    }
+
+    .contactHaut{
+        flex-direction: row;
+    }
+
+    .infoContact{
+        margin-top: 20px;
+    }
+    
+}
+
+////////////////////////DESKTOP////////////////////////////
+@media only screen and (min-width: 1200px){
+    
+    .dessinContact{
+        height: 600px;
+        transition : height 0.5s;
+    }
+
+    .iconsContact{
+        height: 250px;
+        transition : height 0.5s;
+    }
+
+    .textContact{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,131 @@
+
+
+
+////////////////////////MOBILE//////////////////////////
+
+    .titreHome{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .titreHome h1{
+        font-family: hadfield;
+        margin: 0;
+        padding:10px;
+        font-size: 50px;
+        background: -webkit-linear-gradient(0deg, rgba(53,79,115,1), rgba(155,185,191,1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: font-size 0.5s;    
+    }
+
+    .titreHome h2{
+        font-family: besitos;
+        margin: 0;
+        font-size: 25px;
+        transition: font-size 0.5s;
+    }
+
+    .navBulle {
+        height: 300px;
+        width: 60%;
+        margin: 0 auto;
+        transition : width 0.5s;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    #Calque_3 circle:hover{
+        r:250;
+        transition: r 0.5s;
+    }
+
+    #Calque_3 circle{
+        transition: r 0.5s;
+    }
+
+    #Calque_2 circle:hover{
+        r:185;
+        transition: r 0.5s;
+    }
+
+    #Calque_2 circle{
+        transition: r 0.5s;
+    }
+
+    #Calque_1 circle:hover{
+        r:140;
+        transition: r 0.5s;
+    }
+
+    #Calque_1 circle{
+        transition: r 0.5s;
+    }
+
+    g text{
+        user-select: none;
+    }
+
+    #Calque_1:hover{
+        fill: #94d31b; 
+    }
+
+            
+//////////////////////////TABLETTE/////////////////////////
+
+@media only screen and (min-width: 600px){
+    
+    .navBulle {
+        height: 500px;
+        width: 40%;
+        margin: 0 auto;
+        transition : width 0.5s;
+        padding-top: 10%;
+        padding-bottom: 0%;
+    }
+
+    .titreHome h1{
+        font-size: 70px; 
+        transition: font-size 0.5s;
+    }
+
+    .titreHome h2{
+        font-size: 30px;
+        transition: font-size 0.5s;
+    }
+}
+
+////////////////////////DESKTOP////////////////////////////
+@media only screen and (min-width: 1200px){
+   
+    .navBulle {
+        height: 500px;
+        width: 30%;
+        transition : width 0.5s;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .titreHome h1{
+        font-size: 100px; 
+        transition: font-size 0.5s;  
+    }
+
+    .titreHome h2{
+        font-size: 40px;
+        transition: font-size 0.5s;
+    }
+    
+}
+
+
+
+
+
+  
+
+
+

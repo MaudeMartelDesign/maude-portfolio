@@ -1,0 +1,90 @@
+////////////////////////MOBILE//////////////////////////
+
+.proposHaut{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.dessinPropos{
+   height: 300px;
+   width: 50%;
+   transition: width 0.5s;
+}
+
+.textPropos{
+    padding-top: 10%;
+    width: 70%;
+    font-family: always;
+}
+
+#competence{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    flex: 0 0 30%;
+    padding-bottom: 10%;
+}
+
+#competence > div{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+#competence > div > img{
+    width: 50%;
+}
+
+.titreCompetence{
+    font-family: always;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+//////////////////////////TABLETTE/////////////////////////
+
+@media only screen and (min-width: 600px){
+
+    .proposHaut{
+        flex-direction: row;
+        padding-top: 10%;
+        align-items: unset;
+        justify-content: space-around;
+    } 
+
+    .textPropos{
+        width: 40%;
+        font-size: 20px;
+    }
+
+    .dessinPropos{
+        height: 300px;
+        width: 45%;
+        transition: width 0.5s;
+     }
+}
+
+////////////////////////DESKTOP////////////////////////////
+@media only screen and (min-width: 1200px){
+   
+    #competence > div{
+        width: 200px;
+        height: 75px;
+    }
+
+    .dessinPropos{
+        height: 300px;
+        width: 40%;
+        transition: width 0.5s;
+     }
+
+}

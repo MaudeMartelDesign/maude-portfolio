@@ -1,0 +1,83 @@
+
+
+////////////////////////MOBILE//////////////////////////
+
+#btnMenu{
+    color: rgba(53,79,115,1);
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    z-index: 50;
+    transform: rotate(0deg);
+    transition-property: ease-in-out transform, color;
+    transition-duration: 1s;
+    user-select: none;
+}
+
+.menuBackground{
+    background-color: rgba(53,79,115,1);
+    z-index: 30;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: transform 1s;
+    font-family: always;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+}
+
+#checkMenu:checked ~ #btnMenu{
+    transform: rotate(-90deg);
+    color: white;
+    transition-property: ease-in-out transform, color;
+    transition-duration: 1s;
+    position: fixed;
+}
+
+ #checkMenu:checked ~ .menuBackground{
+    transform: translateX(0%);
+    transition: transform 1s;
+  }
+
+  #checkMenu {
+    display: none;
+  }
+
+  .menuBackground a{
+      color: inherit;
+  }
+
+  .navIcons{
+    margin: 40px;
+  }
+
+//////////////////////////TABLETTE/////////////////////////
+
+@media only screen and (min-width: 600px){
+    
+    .menuBackground{
+        font-size: 25px;
+    }
+}
+
+////////////////////////DESKTOP////////////////////////////
+@media only screen and (min-width: 1200px){
+    
+    .menuBackground{
+        font-size: 30px;
+    }
+
+    #btnMenu{
+        font-size: 40px;
+    }
+
+}
