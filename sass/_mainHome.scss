@@ -77,9 +77,14 @@
         user-select: none;
     }
 
-    #Calque_1:hover{
-        fill: #94d31b; 
-    }
+
+    #particle-canvas {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        vertical-align: middle;
+        z-index: -2;
+      }
 
             
 //////////////////////////TABLETTE/////////////////////////
